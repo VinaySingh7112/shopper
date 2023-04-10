@@ -12,6 +12,13 @@ header {
 
 
 }
+.nav-header{
+    margin-left: 23px;
+    align-items: center;
+    font-size: 17px;
+    font-weight: bold;
+    padding-top: 23px;
+}
 
 .tittle_header {
     font-size: 24px;
@@ -93,9 +100,6 @@ h2 {
     background-color: black;
     color: white;
     padding: 28px;
-    /* display: grid;
-    grid-template-columns:3fr 4fr 2fr 3fr;
-    align-items: center; */
     display: flex;
     justify-content: center;
     margin: 0%;
@@ -125,11 +129,9 @@ h2 {
 .subscribe:hover {
     background-color: aqua;
     color: black;
-    /* font-size: 19px; */
     cursor: grab;
-    /* transition: 1s; */
-}
 
+}
 .col-auto {
     background-color: black;
     color: white;
@@ -137,21 +139,16 @@ h2 {
     grid-template-columns: 9fr 3fr;
     border-top: solid 0.5px rgb(34, 32, 32);
     padding: 23px;
-
 }
-
 .imgs {
-
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
 }
 
 .f2 {
-
     margin-left: 32px;
     margin-bottom: 66px;
-    /* flex-wrap: wrap; */
 
 }
 
@@ -245,39 +242,21 @@ main {
 #sr-imgs{
     height: 400px;
 }
-/* .sr-imgs1{
-    overflow: hidden;
-    border: solid 0.01px white;
-    transition: 1s;
-
-}
-.sr-imgs1:hover{
-    width:480px;
-    transition: 1s;
-    overflow: hidden;
-} */
 #sr-img1{
     margin-right: 20px;
     width: 700px;
-    height: 400px;
-   
+    height: 400px;  
     transition:1s;
-    border: solid 0.01px white;
-    
-    
+    border: solid 0.01px white;   
 }
 #sr-img2{
     margin-right: 20px;
     width: 700px;
-    height: 400px;
-  
-    transition:1s;
-  
-    
+    height: 400px; 
+    transition:1s;   
 }
 #sr-img1:hover{
     width: 710px;
-    /* cursor: grab; */
     transition: 1s;
 
 
@@ -291,10 +270,10 @@ main {
 .wmk{
     display:flex;
     justify-content:center;
+    margin-top: 34px;
 }
 .wmk1{
     margin-left: 32px;
-    margin-top: 34px;
     
     
 }
@@ -337,8 +316,6 @@ a{
     font-size: 16px;
     font-family: Arial;
     margin-top: 7px;
-
-
 }
 .title6{
     display: flex;
@@ -366,8 +343,7 @@ a{
     overflow: hidden;
 }
 #sc1{
-    width: 1263px;
-    height: 600px;
+   width: 100%;
 }
 .Reviews{
     margin: 64px;
@@ -388,9 +364,7 @@ a{
 }
 .reviews2{
     border: solid 1px rgb(213, 212, 212);
-    /* box-shadow: 2px 2px 2px gray; */
     width: 300px;
-    /* height: 400px; */
     padding: 33px;
     margin-top: 44px;
 
@@ -404,7 +378,7 @@ a{
 .re-body ,.re-footer{
     color: gray;
 }
-.bi{
+.bi-star-fill{
     color: gold;
 }
 .dot-parent{
@@ -415,22 +389,22 @@ a{
     border:dotted grey 10px;
     border-bottom: none;
     width: 60px;
-    
 }
 .banner-row-1 {
-    display: grid;
-    grid-template-columns: 4fr 8fr;
-    height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+ }
+ .img-size{
+    width: 350px;
+ }
+ .img-size1{
+    width: 730px;
  }
  .row-1-left {
-    background-image: url("https://yevgenysim-turkey.github.io/shopper/assets/img/products/product-1.jpg");
-    background-size: cover;
-    margin-left: 80px;
+    position: relative;
  }
  .row-1-right {
-    background-image: url("https://yevgenysim-turkey.github.io/shopper/assets/img/products/product-2.jpg");
-    background-size: cover;
-    margin-right: 20px;
     margin-left: 20px;
     position: relative;
  }
@@ -448,24 +422,52 @@ a{
     text-align: center;
     font-weight: bold;
  }
- .banner-row-2 {
-    display: grid;
-    grid-template-columns: 8fr 4fr;
-    height: 400px;
-    margin-top: 33px;
- }
+
  .row-2-right {
-    background-image: url("https://yevgenysim-turkey.github.io/shopper/assets/img/products/product-4.jpg");
-    background-size: cover;
-    margin-right: 20px;
- }
- .row-2-left {
-    background-image: url("https://yevgenysim-turkey.github.io/shopper/assets/img/products/product-3.jpg");
-    background-size: cover;
-    margin-right: 20px;
-    margin-left: 80px;
+ 
+    margin-top: 33px;
     position: relative;
  }
+ .row-2-left {
+
+    margin-right: 20px;
+    margin-top: 33px;
+    position: relative;
+ }
+ .shop-now{
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 22px;
+}
+.shop-heading{
+    position: absolute;
+    top: 45%;
+    left: 10%;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.shop-now1{
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 22px;
+    color: white;
+ }
+.shop-heading1{
+    position: absolute;
+    top: 45%;
+    left: 30%;
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+
+}
 
  .img-box{
     position:relative;
@@ -474,15 +476,21 @@ a{
  .button-shop{
     position: absolute;
     top: 85%;
-    left: 45%;
+    left: 40%;
     
+}
+.button-shop1{
+    font-weight: bold;
+    padding: 6px;
+     font-size: 16px;
+
  }
  
  .img-text{
     position:absolute;
     top: 50%;
-    left: 50%;
-    font-size: 23px;
+    left: 42%;
+    font-size: 43px;
     font-weight: bold;
     color: azure;
  }
