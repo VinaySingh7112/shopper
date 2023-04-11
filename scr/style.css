@@ -399,7 +399,7 @@ a{
     width: 350px;
  }
  .img-size1{
-    width: 730px;
+    width: 100%;
  }
  .row-1-left {
     position: relative;
@@ -434,6 +434,7 @@ a{
     margin-top: 33px;
     position: relative;
  }
+ 
  .shop-now{
     position: absolute;
     top: 50%;
@@ -493,4 +494,55 @@ a{
     font-size: 43px;
     font-weight: bold;
     color: azure;
+ }
+ .Summer-collection{
+    position: relative;
+ }
+ .summer1{
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    font-size: 30px;
+    font-weight: bold;
+
+ }
+ .summer2{
+    position: absolute;
+    top: 23%;
+    left: 50%;
+    font-size: 30px;
+    font-weight: bold;
+
+ }
+ .summer3{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    font-size: 40px;
+    font-weight: bold;
+    color: red;
+
+ }
+ .summer4{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: 14px;
+    font-weight: bold;
+    word-spacing: 25px;
+    color: rgb(103, 103, 103);
+    margin-left: 13px;
+
+ }
+ .summer5{
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: black;
+    color: white;
+    padding: 22px;
+    border: none;
+
  }
