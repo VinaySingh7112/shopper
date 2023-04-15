@@ -2,15 +2,20 @@ body {
     margin: 0%;
 }
 
-header {
+.header{
     background-color: white;
     color: black;
     display: flex;
     justify-content: space-between;
     padding: 20px;
     font-family: Arial;
-
-
+    width: 100%;
+    top: 0%;
+    z-index: 1;
+    position: fixed;
+}
+#ico11{
+    margin-right: 23px;
 }
 .nav-header{
     margin-left: 23px;
@@ -35,7 +40,7 @@ header {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    margin-top: 23px;
+    margin-top: 0px;
 }
 #sr1{
     width: 421px;
@@ -45,12 +50,15 @@ header {
 
 
 
-article {
+.art1{
     background-color: black;
     color: white;
     font-size: 20px;
-    padding: 10px;
+    padding: 10px; 
     text-align: center;
+    margin-bottom: 0%;
+    margin-top: 68px;
+
 }
 
 .bi-lightning-fill {
@@ -58,12 +66,15 @@ article {
 }
 
 .footer2 {
-    display: grid;
-    grid-template-columns: 2.4fr 2.4fr 2.4fr 2.4fr 2.4fr;
+    /* display: grid; */
+    /* grid-template-columns: 2.4fr 2.4fr 2.4fr 2.4fr 2.4fr; */
     padding: 28px;
     font-family: Arial;
     background-color: black;
     color: white;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .footer-title {
@@ -102,13 +113,14 @@ h2 {
     padding: 28px;
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
     margin: 0%;
 }
 
 .input1 {
     background-color: rgb(64, 63, 63);
     color: white;
-    width: 400px;
+    width: 300px;
     padding: 12px;
     font-size: 23px;
     margin-right: 6px;
@@ -120,10 +132,13 @@ h2 {
 .subscribe {
     background-color: rgb(119, 116, 116);
     color: white;
-    padding: 23px;
+    padding: 17px;
     border: none;
     padding-left: 32px;
     padding-right: 32px;
+}
+footer{
+    flex-wrap: wrap;
 }
 
 .subscribe:hover {
@@ -135,10 +150,13 @@ h2 {
 .col-auto {
     background-color: black;
     color: white;
-    display: grid;
-    grid-template-columns: 9fr 3fr;
+    /* display: grid; */
+    /* grid-template-columns: 9fr 3fr; */
     border-top: solid 0.5px rgb(34, 32, 32);
     padding: 23px;
+    display: flex;
+    justify-content:space-around;
+    flex-wrap: wrap;
 }
 .imgs {
     display: flex;
@@ -173,7 +191,6 @@ h2 {
 main {
     background-color: rgb(248, 245, 245);
     color: black;
-    height: 515px;
 }
 
 .shopper-title {
@@ -302,8 +319,33 @@ a{
     width: 250px;
     height: 300px;
     margin: 24px;
+    
 
 }
+#icon9{
+    background-color: white;
+    border: solid 1px white;
+    padding: 14px;
+    border-radius: 50%;
+
+}
+.img8{
+    position: relative;
+    transition: 1s;
+}
+
+.icon8{
+    transition: 1s;
+    position: absolute;
+    top: 75%;
+    left: 27%;
+    font-size: 13px;
+    font-weight: bold;
+    color: black;
+    /* display: ; */
+    
+}
+
 .sr51{
     margin-left:24px;
 }
@@ -405,7 +447,7 @@ a{
     position: relative;
  }
  .row-1-right {
-    margin-left: 20px;
+    margin-left: 2%;
     position: relative;
  }
  .offer {
@@ -430,7 +472,7 @@ a{
  }
  .row-2-left {
 
-    margin-right: 20px;
+    margin-right: 2%;
     margin-top: 33px;
     position: relative;
  }
@@ -481,6 +523,7 @@ a{
     
 }
 .button-shop1{
+    border: none;
     font-weight: bold;
     padding: 6px;
      font-size: 16px;
@@ -546,3 +589,6 @@ a{
     border: none;
 
  }
+ /* .sr5:hover{
+     
+ } */
